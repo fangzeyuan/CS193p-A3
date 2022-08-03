@@ -14,6 +14,11 @@
 		AC392126289263F1002307DC /* A3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC392125289263F1002307DC /* A3Tests.swift */; };
 		AC392130289263F2002307DC /* A3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC39212F289263F2002307DC /* A3UITests.swift */; };
 		AC392132289263F2002307DC /* A3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC392131289263F2002307DC /* A3UITestsLaunchTests.swift */; };
+		AC5392EC28965C9000D183BB /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5392EB28965C9000D183BB /* Shapes.swift */; };
+		AC5392EE28966DE200D183BB /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5392ED28966DE100D183BB /* CardContent.swift */; };
+		ACE4EDAC28953829004105A0 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4EDAB28953829004105A0 /* AspectVGrid.swift */; };
+		ACE4EDAE2895416E004105A0 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4EDAD2895416E004105A0 /* SetGame.swift */; };
+		ACE4EDB028954209004105A0 /* SetGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4EDAF28954209004105A0 /* SetGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		AC39212B289263F2002307DC /* A3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC39212F289263F2002307DC /* A3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3UITests.swift; sourceTree = "<group>"; };
 		AC392131289263F2002307DC /* A3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC5392EB28965C9000D183BB /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		AC5392ED28966DE100D183BB /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
+		ACE4EDAB28953829004105A0 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		ACE4EDAD2895416E004105A0 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		ACE4EDAF28954209004105A0 /* SetGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,13 @@
 		AC392113289263EE002307DC /* A3 */ = {
 			isa = PBXGroup;
 			children = (
+				AC5392ED28966DE100D183BB /* CardContent.swift */,
+				ACE4EDAF28954209004105A0 /* SetGameView.swift */,
+				AC5392EB28965C9000D183BB /* Shapes.swift */,
+				ACE4EDAD2895416E004105A0 /* SetGame.swift */,
 				AC392114289263EE002307DC /* A3App.swift */,
 				AC392116289263EE002307DC /* ContentView.swift */,
+				ACE4EDAB28953829004105A0 /* AspectVGrid.swift */,
 				AC392118289263F1002307DC /* Assets.xcassets */,
 				AC39211A289263F1002307DC /* Preview Content */,
 			);
@@ -258,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC392117289263EE002307DC /* ContentView.swift in Sources */,
+				AC5392EE28966DE200D183BB /* CardContent.swift in Sources */,
 				AC392115289263EE002307DC /* A3App.swift in Sources */,
+				ACE4EDAE2895416E004105A0 /* SetGame.swift in Sources */,
+				ACE4EDAC28953829004105A0 /* AspectVGrid.swift in Sources */,
+				ACE4EDB028954209004105A0 /* SetGameView.swift in Sources */,
+				AC5392EC28965C9000D183BB /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
